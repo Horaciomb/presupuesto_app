@@ -1,0 +1,127 @@
+{
+  "ingreso_mensual": 3696,
+  "mes": "Abril 2026 (ingreso prorrateado)",
+  "nota": "Este mes el ingreso es menor por entrar a mitad de mes. Deuda ajustada a 4 cuotas de 200 Bs. No voy a ahorrar este mes.",
+  "gastos_fijos": [
+    {
+      "concepto": "Aporte lote",
+      "categoria": "Vivienda",
+      "monto": 884,
+      "pagado": true,
+      "fecha": "2026-04-01"
+    },
+    {
+      "concepto": "Transporte",
+      "categoria": "Movilidad",
+      "monto": 240,
+      "pagado": false,
+      "fecha": null
+    },
+    {
+      "concepto": "Almuerzo",
+      "categoria": "Alimentacion",
+      "monto": 100,
+      "pagado": false,
+      "fecha": null
+    },
+    {
+      "concepto": "Disney+",
+      "categoria": "Suscripciones",
+      "monto": 18,
+      "pagado": true,
+      "fecha": "2026-04-01"
+    },
+    {
+      "concepto": "Internet",
+      "categoria": "Servicios",
+      "monto": 60,
+      "pagado": false,
+      "fecha": null
+    }
+  ],
+  "gastos_variables": [
+    {
+      "concepto": "Cena con novia",
+      "categoria": "Ocio",
+      "monto_por_salida": 150,
+      "frecuencia_mensual": 2,
+      "monto_mensual": 300,
+      "monto_gastado": 80,
+      "saldo_pendiente": 220,
+      "pagado": false
+    },
+    {
+      "concepto": "Amigos/Fiesta",
+      "categoria": "Ocio",
+      "monto_por_salida": 200,
+      "frecuencia_mensual": 1,
+      "monto_mensual": 200,
+      "monto_gastado": 357.10,
+      "saldo_pendiente": 0,
+      "pagado": true,
+      "nota": "Gasté 250 + 107.10 = 357.10, excediendo el presupuesto en 157.10 Bs"
+    },
+    {
+      "concepto": "Alimentacion/Mercado",
+      "categoria": "Alimentacion",
+      "monto_mensual": 800,
+      "monto_gastado": 0,
+      "saldo_pendiente": 800,
+      "pagado": false
+    }
+  ],
+  "gastos_reales": [
+    {
+      "concepto": "Aporte lote",
+      "categoria": "Vivienda",
+      "monto": 884,
+      "fecha": "2026-04-01",
+      "pagado": true,
+      "es_imprevisto": false
+    },
+    {
+      "concepto": "Disney+",
+      "categoria": "Suscripciones",
+      "monto": 18,
+      "fecha": "2026-04-01",
+      "pagado": true,
+      "es_imprevisto": false
+    },
+    {
+      "concepto": "Cena con novia",
+      "categoria": "Ocio",
+      "monto": 80,
+      "fecha": "2026-04-02",
+      "pagado": true,
+      "es_imprevisto": false
+    },
+    {
+      "concepto": "Amigos/Fiesta - 1° gasto",
+      "categoria": "Ocio",
+      "monto": 250,
+      "fecha": "2026-04-02",
+      "pagado": true,
+      "es_imprevisto": false
+    },
+    {
+      "concepto": "Amigos/Fiesta - 2° gasto",
+      "categoria": "Ocio",
+      "monto": 107.10,
+      "fecha": "2026-04-02",
+      "pagado": true,
+      "es_imprevisto": false
+    }
+  ],
+  "deudas": [
+    {
+      "concepto": "Deuda pendiente",
+      "monto_total": 800,
+      "cuotas": 4,
+      "cuotas_pagadas": 0,
+      "cuota_mensual": 200,
+      "pagado": false
+    }
+  ],
+  "ahorro_mensual": 0,
+  "fondo_imprevistos": 300
+}
